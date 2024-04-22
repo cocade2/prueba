@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav-bar{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+#morao{
+    background-color: #8E44AD;
+    display: flex;
+    width: 100vw;
+    height: 2vh;
+}
+#nav-bar h1{
+    font-size: 50px;
+}
+#dojo{
+    color: #8E44AD;
+}
+#items{
+    display: flex;
+    text-align: row;
+    margin: 10px;
+    height: 50px;
+    padding: 10px;
+}
+#items #cart{
+    transform: scaleX(-1);
+}
+#plata{
+    width: 70px;
+    height: 30px;
+    margin: 10px;
+}
+#HL{
+    display: flex;
+    justify-content: space-evenly;
+    width: 42vw;
+    font-size: 18px;
+}
+#fotos .flecha2 {
+    transform: scaleX(-1);
+}
+#fotos{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 30vh;
+    align-items:center;
+}
+#fotos .carrusel{
+    height: 30vh;
+}
+.flecha1,
+.flecha2{
+    width: 5vw;
+    height: 10vh;
+    display: flex;
+}
+#boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+#box1,
+#box2,
+#box3{
+    border: 3px solid black;
+    width: 25vw;
+    background-color: #ECF0F1;
+}
+#box1 .game1,
+#box2 .game2,
+#box3 .game3{
+    width: 25vw;
+}
+#desc1,
+#desc2,
+#desc3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#desc1 .buy1,
+#desc2 .buy2,
+#desc3 .buy3{
+    border: none;
+    background-color: greenyellow;
+    font-size: 20px;
+    border-radius: 10%;
+}
+#desc1 .oferta1,
+#desc2 .oferta2,
+#desc3 .oferta3{
+    background-color: #8E44AD;
+    border-radius: 10%;
+}

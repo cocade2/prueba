@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="PAPA">
+      <div id="morao"></div>
+      <div id="nav-bar">
+        <div id="titulo">
+          <h1>Gaming<span id="dojo">Dojo</span></h1>
+        </div>
+        <div id="items">
+          <select id="plata" name="plata">
+            <option id="EUR" value="euro">EUR</option>
+            <option id="USD" value="dolar">USD</option>
+          </select>
+          <img id="cart" src="fotos/cart-light.png" />
+          <p id="carro">0</p>
+          <img id="lupa" src="fotos/search-light.png" />
+        </div>
+      </div>
+      <div id="HL">
+        <h2>Highlight</h2>
+      </div>
+      <div id="fotos">
+        <img class="flecha1" src="fotos/chevron-left.png" />
+        <img class="carrusel" src="fotos/pixel-ninjas-2.png" alt=>
+        <img class="flecha2" src="fotos/chevron-left.png" />
+      </div>
+      <div id="boxes">
+        <div id="box1">
+          <img class="game1" src="fotos/cafe-neko.png" />
+          <h2>Cafe neko: Gold Edition</h2>
+          <img src="fotos/windows.png" class="win" onclick="alertwin(this)"/>
+          <img src="fotos/apple.png" class="aple" onclick="alertaple(this)"/>
+          <div id="desc1">
+            <h2 class="oferta1">-20%</h2>
+            <h2 id="valor1">€10.49</h2>
+            <button class="buy1" onclick="comprado(this)" id="boot">Buy</button>
+          </div>
+        </div>
+        <div id="box2">
+          <img class="game2" src="fotos/pixel-ninjas-2.png" />
+          <h2>Pixel Ninja 2</h2>
+          <img src="fotos/windows.png" class="win" onclick="alertwin(this)"/>
+          <img src="fotos/apple.png"  class="aple"onclick="alertaple(this)"/>
+          <div id="desc2">
+            <h2 class="oferta2">-10%</h2>
+            <h2 id="valor2">€7.39</h2>
+            <button class="buy2" onclick="comprado(this)" id="boot">Buy</button>
+          </div>
+        </div>
+        <div id="box3">
+          <img class="game3" src="fotos/stonepunk.png" />
+          <h2>Stonepunk 10000 BCE</h2>
+          <img src="fotos/windows.png" class="win" onclick="alertwin(this)"/>
+          <img src="fotos/apple.png" class="win" onclick="alertaple(this)"/>
+          <img src="fotos/linux.png" class="win" onclick="alertlin(this)"/>
+          <div id="desc3">
+            <h2 class="oferta3">NEW</h2>
+            <h2 id="valor3">€19.99</h2>
+            <button class="buy3" onclick="comprado(this)" id="boot">Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
